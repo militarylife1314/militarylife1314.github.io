@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>合法影视平台 - 首页</title>
+    <!-- 引入外部样式库 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <style>
+        /* 自定义基础样式 */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* 页面标题样式 */
+        .page-header {
+            text-align: center;
+            margin: 30px 0;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e74c3c;
+        }
+        .page-header h1 {
+            font-size: 2.5em;
+            color: #e74c3c;
+            margin: 0;
+        }
+        /* 线路选择区域样式 */
+        .line-section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .line-section h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #34495e;
+        }
+        .line-list {
+            list-style: none;
+            padding: 0;
+        }
+        .line-item {
+            padding: 12px 15px;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            border-left: 4px solid #3498db;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        .line-item:hover {
+            background-color: #e9ecef;
+            transform: translateX(5px);
+        }
+        .line-item span {
+            margin-right: 10px;
+        }
+        .line-status {
+            color: #28a745;
+            font-weight: 500;
+        }
+        /* 联系方式与提示区域 */
+        .info-section {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .info-section h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #34495e;
+        }
+        .contact-item, .tip-item {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        .contact-item span, .tip-item span {
+            margin-right: 10px;
+            color: #e74c3c;
+        }
+        /* 收藏提示样式 */
+        .bookmark-tip {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .bookmark-tip p {
+            margin: 0;
+            font-size: 1.1em;
+            color: #856404;
+        }
+        /* 版权信息样式 */
+        .copyright {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+            margin-top: 50px;
+        }
+        /* 按钮样式 */
+        .btn-custom {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .btn-custom:hover {
+            background-color: #2980b9;
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 页面标题区域 -->
+        <div class="page-header">
+            <h1>♠ 合法影视平台</h1>
+            <p>提供合规授权影视内容，畅享高品质观影体验</p>
+        </div>
+
+        <!-- 线路选择区域 -->
+        <div class="line-section">
+            <h2>观影线路选择</h2>
+            <ul class="line-list">
+                <li class="line-item">
+                    <span>♠</span>
+                    <span>线路一（主线路）</span>
+                    <span class="line-status">加载完成（768ms）</span>
+                    <a href="https://tangsanzang.top" target="_blank" class="btn-custom pull-right">立即观看</a>
+                </li>
+                <li class="line-item">
+                    <span>♠</span>
+                    <span>线路二（备用线路）</span>
+                    <span class="line-status">测速中...</span>
+                    <a href="https://tangsanzang.top" target="_blank" class="btn-custom pull-right" style="background-color: #95a5a6;">稍后尝试</a>
+                </li>
+                <li class="line-item">
+                    <span>♠</span>
+                    <span>线路三（高速线路）</span>
+                    <span class="line-status">测速中...</span>
+                    <a href="https://tangsanzang.top" target="_blank" class="btn-custom pull-right" style="background-color: #95a5a6;">稍后尝试</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 联系方式与使用提示区域 -->
+        <div class="info-section">
+            <h2>平台信息</h2>
+            <div class="contact-item">
+                <span>📧</span>
+                <span>联系方式：service@legaltv.com（仅处理合规咨询与反馈）</span>
+            </div>
+            <div class="bookmark-tip">
+                <p><span>🔖</span> 收藏提示：请使用 Ctrl+D（Windows）或 Command+D（Mac）收藏本平台官方页面，确保访问安全</p>
+            </div>
+            <div class="tip-item">
+                <span>💡</span>
+                <span>使用提示：1. 推荐使用Chrome、Edge等主流浏览器访问；2. 本平台所有内容均已获得版权方授权，严禁私自传播；3. 如遇线路问题，请联系客服处理，勿轻信第三方链接</span>
+            </div>
+        </div>
+
+        <!-- 版权信息区域 -->
+        <div class="copyright">
+            <p>© 2025 合法影视平台 版权所有 | 营业执照：XXX | 网络文化经营许可证：XXX | 广播电视节目制作经营许可证：XXX</p>
+            <p>郑重声明：本平台坚决抵制侵权盗版内容，所有内容均来自合法授权渠道，如有侵权请联系删除</p>
+        </div>
+    </div>
+
+    <!-- 引入外部脚本 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script>
+        // 简单的线路测速模拟脚本
+        $(document).ready(function() {
+            // 模拟线路二测速完成
+            setTimeout(function() {
+                $('.line-list .line-item:eq(1) .line-status').text('加载完成（820ms）');
+                $('.line-list .line-item:eq(1) .btn-custom').css('background-color', '#3498db');
+            }, 3000);
+
+            // 模拟线路三测速完成
+            setTimeout(function() {
+                $('.line-list .line-item:eq(2) .line-status').text('加载完成（790ms）');
+                $('.line-list .line-item:eq(2) .btn-custom').css('background-color', '#3498db');
+            }, 5000);
+
+            // 收藏提示脚本
+            $(window).bind('keydown', function(e) {
+                if (e.ctrlKey && e.keyCode === 68) { // Ctrl+D
+                    setTimeout(function() {
+                        alert('感谢收藏合法影视平台官方页面，请注意保护账号安全');
+                    }, 500);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
